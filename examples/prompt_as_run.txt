@@ -1,0 +1,12 @@
+The attached image is one page of my handwritten physics class notes. Please turn it into an accessible Word document (.docx) that I can download.
+
+Requirements:
+1. Treat my handwriting as a content outline, not something to copy stroke by stroke. Write clean, complete sentences that keep my content, my order, and my notation.
+2. Use real Word heading styles (Title, Heading 1, Heading 2) for the structure. Do not fake headings with bold text.
+3. Every equation must be a native, structured Word equation (editable, not a picture, and not a flat string of Unicode characters). To guarantee this, write the document first in Markdown with LaTeX math ($...$ and $$...$$), then convert it to .docx with pandoc, and apply the remaining formatting to that file.
+4. For each diagram: crop it from my image with Python (Pillow) in your code environment and insert it at the right place in the text, with alt text that describes what the diagram shows physically (objects, forces and their directions, labels). If you cannot crop images, insert a clearly marked placeholder plus the alt text you would use.
+5. Use real Word lists for lists, and real tables (with a header row) for anything tabular.
+6. Do not mention anywhere in the document that it came from handwritten notes or was converted.
+7. If you cannot read a symbol or word with confidence, do not guess silently. Make your best reading, and list every uncertain spot at the end of your chat reply (not in the document) as a question for me.
+8. Before giving me the file, convert it to PDF (for example with LibreOffice) and look at every page to confirm that every equation and every diagram is actually visible.
+9. After producing the file, tell me in two or three sentences what you could not do and what I should check by hand.

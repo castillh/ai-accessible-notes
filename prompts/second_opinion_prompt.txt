@@ -1,0 +1,5 @@
+The first attachment is a page of my handwritten notes. The second attachment is a typed document that is supposed to present the same content. Compare them carefully and list, as a numbered list:
+1. Any equation, symbol, sign, subscript, or number that differs between the two.
+2. Any content in the notes that is missing from the typed document, and any content in the typed document that is not in the notes.
+3. Any figure description (alt text) that describes something not actually drawn in the notes.
+For each item, quote both versions. If a handwritten mark is ambiguous, say so and give your top two readings instead of picking one. Do not rewrite the document.

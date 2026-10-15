@@ -1,0 +1,6 @@
+*.aux
+*.log
+*.out
+*-luamml-mathml.html
+~$*
+.DS_Store

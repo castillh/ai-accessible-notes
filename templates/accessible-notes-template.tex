@@ -1,0 +1,71 @@
+% Starter template for an accessible (tagged, PDF/UA-1) set of notes.
+% Compile with LuaLaTeX on TeX Live 2025 or newer (Overleaf: Menu > Compiler = LuaLaTeX,
+% TeX Live version = 2025 or 2026). Run it twice so cross-references resolve.
+\DocumentMetadata{
+  lang        = en-US,
+  pdfstandard = ua-1,
+  pdfversion  = 1.7,
+  tagging     = on,
+}
+\documentclass[11pt]{article}
+
+\usepackage{amsmath}
+\usepackage{unicode-math}
+\setmathfont{Latin Modern Math}
+\usepackage{graphicx}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+
+\hypersetup{
+  pdftitle  = {Newton's Laws and Friction},   % shown as the document title by screen readers
+  pdfauthor = {Your Name},
+  hidelinks,
+}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE\bfseries Newton's Laws and Friction}\\[6pt]
+  {\large Physics 101 \quad Your Name}
+\end{center}
+
+% Use \section and \subsection for every heading. Never fake a heading with \textbf.
+\section{Newton's second law}
+
+The net force on an object equals its mass times its acceleration:
+\begin{equation}
+  \vec F_{\text{net}} = m\,\vec a .
+  \label{eq:newton2}
+\end{equation}
+Equation~\eqref{eq:newton2} holds in an inertial reference frame.
+
+\section{Friction}
+
+\subsection{Static and kinetic friction}
+
+Use real list environments for lists:
+\begin{itemize}
+  \item Static friction satisfies $f_s \le \mu_s N$.
+  \item Kinetic friction satisfies $f_k = \mu_k N$.
+\end{itemize}
+
+% Every image needs alt text that says what the picture shows physically.
+\begin{center}
+  \includegraphics[width=0.4\linewidth,
+    alt={A box resting on a horizontal floor. An arrow labeled F pushes the box
+         to the right; an arrow labeled f, for friction, points to the left;
+         an arrow labeled N points up and an arrow labeled mg points down.}]
+    {example-image}
+\end{center}
+
+% Tables: declare the header row before the tabular so it is tagged as a header.
+\tagpdfsetup{table/header-rows={1}}
+\begin{center}
+\begin{tabular}{lcc}
+  Surfaces & $\mu_s$ & $\mu_k$ \\
+  Rubber on dry concrete & 1.0 & 0.8 \\
+  Steel on steel & 0.74 & 0.57 \\
+\end{tabular}
+\end{center}
+
+\end{document}

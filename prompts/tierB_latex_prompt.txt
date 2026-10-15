@@ -1,0 +1,11 @@
+The attached file contains my handwritten class notes for [COURSE / GRADE LEVEL] on [TOPIC]. I also attach a LaTeX template (accessible-notes-template.tex). Please write a complete LaTeX file, based on that template, that presents the same content as my notes. I will compile it with LuaLaTeX on Overleaf.
+
+Requirements:
+1. Keep the template's preamble exactly as it is (the \DocumentMetadata block, the packages, the unicode-math line). Change only the title, author, and body.
+2. Treat my handwriting as a content outline, not something to copy stroke by stroke. Write clean, complete sentences that keep my content, my order, and my notation. Do not add topics I did not include.
+3. Use \section and \subsection for every heading. Never use \textbf as a heading.
+4. Put every displayed equation in an equation environment so it is numbered.
+5. For each diagram, either (a) redraw it in TikZ inside a figure placed where it belongs, with an alt={...} description, or (b) if it is too complex, insert \includegraphics[width=0.5\linewidth, alt={...}]{figN.png} and tell me which region of my notes to crop and save as figN.png. The alt text must describe what the diagram shows physically (objects, forces and their directions, labels).
+6. Use itemize/enumerate for lists and tabular (with \tagpdfsetup{table/header-rows={1}} before it) for tables.
+7. Do not mention anywhere in the document that it came from handwritten notes or was converted.
+8. If you cannot read a symbol or word with confidence, do not guess silently. Make your best reading, and list every uncertain spot at the end of your chat reply (not in the file) as a question for me.
