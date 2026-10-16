@@ -56,7 +56,7 @@ All three paths share the same steps (Section 5). Only the tools change.
 ## 5. The steps (every path)
 
 1. **Prepare the source.** Scan or photograph each page flat, in good light, at a readable resolution. A tablet/stylus export to PDF is ideal. Remove anything that identifies a student.
-2. **Use an approved AI account.** Sign in with your institutional account when your school provides one (Section 9). Do not upload student work or student data.
+2. **Use an approved AI account.** Sign in with your institutional account when your school provides one (Section 9). Do not upload student work or student data unless your school's policy allows it for that tool (Section 9).
 3. **Generate the draft.** Upload the page(s) to the AI tool and paste the prompt for your path (in the `prompts/` folder). The prompts tell the AI to rewrite rather than transcribe, to use real structure, and to list everything it could not read instead of guessing silently.
 4. **Answer the AI's questions.** The AI lists symbols and words it could not read confidently. Answer them in the chat and ask for a corrected file.
 5. **Check with an automated tool** (Section 7). Fix everything it flags.
@@ -138,7 +138,7 @@ So the expert read (step 6) is the step that makes the document correct. The sof
 ## 9. Privacy and accounts
 
 - Prefer your institution's licensed AI tool and sign in with your school account. Several vendors offer education versions that do not train on your data, for example Microsoft 365 Copilot Chat with a school account, Gemini for Education, ChatGPT for Teachers (free for verified US K-12 staff), ChatGPT Edu, and Claude for Education.
-- Your own lecture notes are usually fine to upload. Student work, grades, names, or photos of students are not.
+- Your own lecture notes are usually fine to upload. Student work, grades, names, or photos of students: usually not, but check your school's policy for possible exceptions. For example, Ohio University allows sensitive data, including student records covered by FERPA, in the protected version of Microsoft Copilot (signed in with the OHIO login); no other AI tool is approved for such data there.
 - Ask your IT or accessibility office which tools are approved.
 
 ## 10. Files in this repository
@@ -189,3 +189,4 @@ Suggestions and reports of what worked for you are welcome: castillh@ohio.edu.
 - ChatGPT for Teachers: https://help.openai.com/en/articles/12844995-chatgpt-for-teachers
 - Claude for Education data: https://support.claude.com/en/articles/11732894-who-owns-and-manages-the-data-of-my-claude-for-education-account
 - Mathpix: https://mathpix.com/pricing
+- Ohio University OIT, secure use of AI tools: https://www.ohio.edu/oit/security/secure-use-artificial-intelligence-tools
