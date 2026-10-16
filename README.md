@@ -100,7 +100,7 @@ Things to know:
 
 ### Path C: AI agent on your own computer
 
-This is my own working setup: TeX Live 2026 (installed in my home directory), Claude Code as the AI agent, veraPDF as the validator, all on Linux. The same works on Mac or Windows.
+This is my own working setup, on Linux: TeX Live 2026 (installed in my home directory), Claude Code as the AI agent, and veraPDF as the validator. Each of these tools is also available for Windows and Mac, but I have only tested the workflow on Linux.
 
 The agent does steps 3 to 5 of Section 5 by itself: it reads the source, writes the LaTeX, redraws every figure in TikZ with alt text, compiles, runs the validator, renders the pages to images and inspects them, and fixes problems before handing the document to me. I then do the expert read (step 6), usually in two to five short rounds of corrections.
 
