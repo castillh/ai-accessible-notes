@@ -138,7 +138,7 @@ So the expert read (step 6) is the step that makes the document correct. The sof
 ## 9. Privacy and accounts
 
 - Prefer your institution's licensed AI tool and sign in with your school account. Several vendors offer education versions that do not train on your data, for example Microsoft 365 Copilot Chat with a school account, Gemini for Education, ChatGPT for Teachers (free for verified US K-12 staff), ChatGPT Edu, and Claude for Education.
-- Your own lecture notes are usually fine to upload. Student work, grades, names, or photos of students: usually not, but check your school's policy for possible exceptions. For example, Ohio University allows sensitive data, including student records covered by FERPA, in the protected version of Microsoft Copilot (signed in with the OHIO login); no other AI tool is approved for such data there.
+- Your own lecture notes are usually fine to upload. Student work, grades, names, or photos of students: usually not, but check your school's policy for possible exceptions. For example, Ohio University allows sensitive data, including student records covered by FERPA, in the protected version of Microsoft Copilot (signed in with the OHIO login); no other AI tool is approved for such data there. Ohio University's AI standard also restricts AI use, even in Copilot, for the "creation of non-public instructional materials" and for grading. Ask OIT whether course notes posted only to your LMS count as non-public instructional materials.
 - Ask your IT or accessibility office which tools are approved.
 
 ### Free accounts for educators (as of October 2026)
@@ -150,7 +150,7 @@ US K-12 teachers can get a free individual account from two vendors:
 
 College and university faculty have no free individual account from OpenAI or Anthropic. Their access usually comes through the institution:
 
-- **Microsoft Copilot Chat:** no extra cost with a Microsoft 365 education license (A1, A3, or A5) when signed in with the school account. The full Copilot inside Word, Excel, and PowerPoint is a paid add-on.
+- **Microsoft Copilot Chat:** no extra cost with a Microsoft 365 education license (A1, A3, or A5) when signed in with the school account. The full Copilot inside Word, Excel, and PowerPoint is a paid add-on. At Ohio University, Copilot Chat is free with the OHIO login (copilot.microsoft.com or microsoft365.com/chat; look for the green shield), and the full Microsoft 365 Copilot is a paid license ($360 per year).
 - **Gemini for Education (Google):** included at no extra cost with Google Workspace for Education. Google AI Pro for Education is a paid add-on.
 - **Campus-wide licenses:** some institutions buy ChatGPT Edu or Claude for Education for all faculty, staff, and students. Individuals cannot buy these.
 - **GitHub Copilot Pro:** free for verified teachers and faculty through GitHub Education. GitHub paused new Copilot Pro sign-ups on April 20, 2026; check whether the pause has ended.
@@ -216,4 +216,8 @@ Free educator accounts (accessed 2026-10-17):
 - Claude for higher education: https://claude.com/solutions/education
 - Microsoft, Copilot in Education: https://www.microsoft.com/en-us/education/products/copilot-in-education
 - Google, premium AI for educators (2026): https://blog.google/products-and-platforms/products/education/bett26-premium-ai/
+- Ohio University, Microsoft Copilot service: https://help.ohio.edu/TDClient/30/Portal/Requests/ServiceDet?ID=257
+- Ohio University, Copilot Chat with GPT-5 (2025): https://www.ohio.edu/news/2025/10/microsoft-copilot-now-running-gpt-5
+- Ohio University, employee guidance for using AI (2026-09-20): https://www.ohio.edu/news/2026/09/employee-guidance-using-ai-securely-responsibly
+- Ohio University, Secure Use of AI Tools standard: https://www.ohio.edu/oit/security/policy-practices/consulting/standards/secure-use-artificial-intelligence-tools
 - GitHub, free Copilot Pro for teachers: https://docs.github.com/en/copilot/how-tos/copilot-on-github/set-up-copilot/enable-copilot/set-up-for-teachers-and-os-maintainers
