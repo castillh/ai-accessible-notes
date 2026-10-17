@@ -141,6 +141,22 @@ So the expert read (step 6) is the step that makes the document correct. The sof
 - Your own lecture notes are usually fine to upload. Student work, grades, names, or photos of students: usually not, but check your school's policy for possible exceptions. For example, Ohio University allows sensitive data, including student records covered by FERPA, in the protected version of Microsoft Copilot (signed in with the OHIO login); no other AI tool is approved for such data there.
 - Ask your IT or accessibility office which tools are approved.
 
+### Free accounts for educators (as of October 2026)
+
+US K-12 teachers can get a free individual account from two vendors:
+
+- **ChatGPT for Teachers (OpenAI):** free for verified US K-12 teachers and staff through June 2028. Some OpenAI pages still state June 2027.
+- **Claude for Teachers (Anthropic):** one free year of premium features for verified US K-12 educators who sign up by June 30, 2027. Schools and districts can also set up a free organization account. Anthropic states it does not train its models on these conversations.
+
+College and university faculty have no free individual account from OpenAI or Anthropic. Their access usually comes through the institution:
+
+- **Microsoft Copilot Chat:** no extra cost with a Microsoft 365 education license (A1, A3, or A5) when signed in with the school account. The full Copilot inside Word, Excel, and PowerPoint is a paid add-on.
+- **Gemini for Education (Google):** included at no extra cost with Google Workspace for Education. Google AI Pro for Education is a paid add-on.
+- **Campus-wide licenses:** some institutions buy ChatGPT Edu or Claude for Education for all faculty, staff, and students. Individuals cannot buy these.
+- **GitHub Copilot Pro:** free for verified teachers and faculty through GitHub Education. GitHub paused new Copilot Pro sign-ups on April 20, 2026; check whether the pause has ended.
+
+A free personal account does not make it safe to upload student information. Only your school or district can authorize that.
+
 ## 10. Files in this repository
 
 - `prompts/tierA_word_prompt.txt`: prompt for Path A (Word output).
@@ -190,3 +206,14 @@ Suggestions and reports of what worked for you are welcome: castillh@ohio.edu.
 - Claude for Education data: https://support.claude.com/en/articles/11732894-who-owns-and-manages-the-data-of-my-claude-for-education-account
 - Mathpix: https://mathpix.com/pricing
 - Ohio University OIT, secure use of AI tools: https://www.ohio.edu/oit/security/secure-use-artificial-intelligence-tools
+
+Free educator accounts (accessed 2026-10-17):
+
+- OpenAI, ChatGPT for K-12 teachers: https://chatgpt.com/plans/k12-teachers/
+- Anthropic, Claude for Teachers: https://www.anthropic.com/news/claude-for-teachers
+- Claude for Teachers, schools and districts: https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts
+- Claude for Teachers, data and terms: https://support.claude.com/en/articles/15926041-claude-for-teachers-your-data-and-our-terms
+- Claude for higher education: https://claude.com/solutions/education
+- Microsoft, Copilot in Education: https://www.microsoft.com/en-us/education/products/copilot-in-education
+- Google, premium AI for educators (2026): https://blog.google/products-and-platforms/products/education/bett26-premium-ai/
+- GitHub, free Copilot Pro for teachers: https://docs.github.com/en/copilot/how-tos/copilot-on-github/set-up-copilot/enable-copilot/set-up-for-teachers-and-os-maintainers
